@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+* {
+  font-family: 'Fredoka', sans-serif;
+}
+
+#todo-container {
+  margin: auto;
+  width: 40%;
+  background-color: beige;
+  border: black solid 1px;
+  border-radius: 5px;
+
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, 0%);
+}
+
+.field {
+  margin: 30px auto;
+  width: 80%;
+}
+
+.done {
+  background-color: #dafaa2;
+}
+
+.pending {
+  background-color: #fffd99;
+}
+
+#title {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+#inputText {
+  width: 80%;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#addBtn {
+  background-color: #8e49e9;
+  border: none;
+  border-radius: 5px;
+  font-size: 25px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.item {
+  padding: 10px;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.todoChk {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.todoItem {
+  margin-left: 15px;
+}
+
+.spnDel {
+  float: right;
+  cursor: pointer;
+}
